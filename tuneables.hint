@@ -1,0 +1,12 @@
+# As per https://comtrade.un.org/data/
+1.
+Type of produc =  Goods
+Frequency: Annual
+2.
+SITC Rev1
+3.
+Periods (year): All
+Reporters: $countries
+Partners: World
+Trade flows: Import, Export
+SITC1 Commoditie codes: $SITC

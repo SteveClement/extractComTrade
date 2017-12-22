@@ -16,7 +16,7 @@ partnerAreas = json.load(open('partnerAreas.json'))
 def countryToComtrade(country):
     for res in reporterAreas["results"]:
         if country in res["text"]:
-            print("The corresponding code to {} is {}".format(country, res['id']))
+            print("The corresponding code to {} is {}".format(res['text'], res['id']))
 
 ##pprint(partnerAreas)
 ##pprint(reporterAreas)
